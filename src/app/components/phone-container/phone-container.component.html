@@ -1,0 +1,10 @@
+  <h1> Phone list </h1>
+  <div class="container">
+    <div class="row justify-content-md-center">
+      <div class="col" *ngFor="let phone of phones">
+          <phone-card [phone]="phone"></phone-card>
+      </div>
+    </div>
+  </div>
+
+  

@@ -1,0 +1,8 @@
+<div class="card text-center">
+  <img class="card-img-top mx-auto d-block" [src]="url + phone.image" alt="Image {{ phone.brand }} {{ phone.name }}">
+  <div class="card-body">
+    <h4 class="card-title">{{ phone.name }}</h4>
+    <p class="card-text">{{ phone.brand }}</p>
+    <a href="#" [routerLink]="['/phones',phone._id]">Show details</a>
+  </div>
+</div>
